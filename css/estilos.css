@@ -10,11 +10,10 @@
     clear: both;
 }
 
-
 body {
     color: #555;
     font-family: Open Sans;
-    font-size: 26px;
+    font-size: 16px;
     position: relative;
     height: 100vh;
     font-weight: 400;
@@ -22,7 +21,7 @@ body {
 
 .derecha { float: right; }
 .rojo { color: #FF5049 !important; }
-.rojofocus:focus { border: 1px solid #722624 !important; }
+.rojofocus:focus { border: 1px solid #FF5049 !important; }
 
 .cabecero {
     height: 40vh;
@@ -33,7 +32,9 @@ body {
     padding-top: 150px;
     padding-bottom: 100px;
     color: #fff;
-    background: url(fondo.jpg);
+    background: url(fondo.png), #111011;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#3a313e), to(#352225));
+    background: url(fondo.png), linear-gradient(to left, #3e3046, #372224)
 }
 
 .presupuesto {
@@ -58,7 +59,6 @@ body {
     text-align: center;
     margin-bottom: 25px;
     letter-spacing: 2px;
-   
 }
 
 .presupuesto_ingreso,
@@ -69,7 +69,7 @@ body {
 
 .presupuesto_ingreso {
     margin-bottom: 10px;
-    background-color: #2E86C1;
+    background-color: #28B9B5;
 }
 
 .presupuesto_egreso {
@@ -109,14 +109,12 @@ body {
 .agregar {
     padding: 14px;
     border-bottom: 1px solid #e7e7e7;
-    
-
+    background-color: #f7f7f7;
 }
 
 .agregar_contenedor {
     margin: 0 auto;
     text-align: center;
-    background-color: white;
 }
 
 .agregar_tipo {
@@ -151,7 +149,7 @@ body {
     font-size: 35px;
     background: none;
     border: none;
-    color: #011615;
+    color: #28B9B5;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
